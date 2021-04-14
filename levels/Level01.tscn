@@ -6,13 +6,13 @@
 [ext_resource path="res://Goal.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Disclaimer.tscn" type="PackedScene" id=5]
 
-[sub_resource type="RectangleShape2D" id=2]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 32, 32 )
 
 [node name="LevelOne" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
-position = Vector2( 96, 96 )
+position = Vector2( 96.0001, 96 )
 
 [node name="Walls" type="Node" parent="."]
 
@@ -24,7 +24,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall01"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall01"]
 modulate = Color( 0, 0, 0, 1 )
@@ -38,7 +38,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall11"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall11"]
 modulate = Color( 0, 0, 0, 1 )
@@ -52,7 +52,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall02"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall02"]
 modulate = Color( 0, 0, 0, 1 )
@@ -66,7 +66,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall03"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall03"]
 modulate = Color( 0, 0, 0, 1 )
@@ -80,7 +80,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall04"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall04"]
 modulate = Color( 0, 0, 0, 1 )
@@ -94,7 +94,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall25"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall25"]
 modulate = Color( 0, 0, 0, 1 )
@@ -108,7 +108,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall28"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall28"]
 modulate = Color( 0, 0, 0, 1 )
@@ -122,7 +122,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall35"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall35"]
 modulate = Color( 0, 0, 0, 1 )
@@ -136,7 +136,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall29"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall29"]
 modulate = Color( 0, 0, 0, 1 )
@@ -150,7 +150,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall79"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall79"]
 modulate = Color( 0, 0, 0, 1 )
@@ -164,7 +164,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall80"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall80"]
 modulate = Color( 0, 0, 0, 1 )
@@ -178,7 +178,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall76"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall76"]
 modulate = Color( 0, 0, 0, 1 )
@@ -192,7 +192,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall30"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall30"]
 modulate = Color( 0, 0, 0, 1 )
@@ -206,7 +206,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall31"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall31"]
 modulate = Color( 0, 0, 0, 1 )
@@ -220,7 +220,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall32"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall32"]
 modulate = Color( 0, 0, 0, 1 )
@@ -234,7 +234,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall33"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall33"]
 modulate = Color( 0, 0, 0, 1 )
@@ -248,7 +248,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall34"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall34"]
 modulate = Color( 0, 0, 0, 1 )
@@ -262,7 +262,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall26"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall26"]
 modulate = Color( 0, 0, 0, 1 )
@@ -276,7 +276,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall27"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall27"]
 modulate = Color( 0, 0, 0, 1 )
@@ -290,7 +290,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall12"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall12"]
 modulate = Color( 0, 0, 0, 1 )
@@ -304,7 +304,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall13"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall13"]
 modulate = Color( 0, 0, 0, 1 )
@@ -318,7 +318,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall14"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall14"]
 modulate = Color( 0, 0, 0, 1 )
@@ -332,7 +332,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall15"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall15"]
 modulate = Color( 0, 0, 0, 1 )
@@ -346,7 +346,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall16"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall16"]
 modulate = Color( 0, 0, 0, 1 )
@@ -360,7 +360,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall17"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall17"]
 modulate = Color( 0, 0, 0, 1 )
@@ -374,7 +374,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall18"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall18"]
 modulate = Color( 0, 0, 0, 1 )
@@ -388,7 +388,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall19"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall19"]
 modulate = Color( 0, 0, 0, 1 )
@@ -402,7 +402,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall20"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall20"]
 modulate = Color( 0, 0, 0, 1 )
@@ -416,7 +416,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall21"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall21"]
 modulate = Color( 0, 0, 0, 1 )
@@ -430,7 +430,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall22"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall22"]
 modulate = Color( 0, 0, 0, 1 )
@@ -444,7 +444,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall23"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall23"]
 modulate = Color( 0, 0, 0, 1 )
@@ -458,7 +458,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall24"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall24"]
 modulate = Color( 0, 0, 0, 1 )
@@ -472,7 +472,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall05"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall05"]
 modulate = Color( 0, 0, 0, 1 )
@@ -486,7 +486,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall06"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall06"]
 modulate = Color( 0, 0, 0, 1 )
@@ -500,7 +500,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall07"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall07"]
 modulate = Color( 0, 0, 0, 1 )
@@ -514,7 +514,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall08"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall08"]
 modulate = Color( 0, 0, 0, 1 )
@@ -528,7 +528,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall61"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall61"]
 modulate = Color( 0, 0, 0, 1 )
@@ -542,7 +542,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall62"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall62"]
 modulate = Color( 0, 0, 0, 1 )
@@ -556,7 +556,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall63"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall63"]
 modulate = Color( 0, 0, 0, 1 )
@@ -570,7 +570,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall64"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall64"]
 modulate = Color( 0, 0, 0, 1 )
@@ -584,7 +584,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall65"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall65"]
 modulate = Color( 0, 0, 0, 1 )
@@ -598,7 +598,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall66"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall66"]
 modulate = Color( 0, 0, 0, 1 )
@@ -612,7 +612,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall67"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall67"]
 modulate = Color( 0, 0, 0, 1 )
@@ -626,7 +626,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall68"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall68"]
 modulate = Color( 0, 0, 0, 1 )
@@ -640,7 +640,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall69"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall69"]
 modulate = Color( 0, 0, 0, 1 )
@@ -654,7 +654,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall70"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall70"]
 modulate = Color( 0, 0, 0, 1 )
@@ -668,7 +668,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall71"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall71"]
 modulate = Color( 0, 0, 0, 1 )
@@ -682,7 +682,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall72"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall72"]
 modulate = Color( 0, 0, 0, 1 )
@@ -696,7 +696,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall73"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall73"]
 modulate = Color( 0, 0, 0, 1 )
@@ -710,7 +710,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall74"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall74"]
 modulate = Color( 0, 0, 0, 1 )
@@ -724,7 +724,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall75"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall75"]
 modulate = Color( 0, 0, 0, 1 )
@@ -738,7 +738,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall77"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall77"]
 modulate = Color( 0, 0, 0, 1 )
@@ -752,7 +752,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall78"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall78"]
 modulate = Color( 0, 0, 0, 1 )
@@ -766,7 +766,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall09"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall09"]
 modulate = Color( 0, 0, 0, 1 )
@@ -780,7 +780,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall10"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall10"]
 modulate = Color( 0, 0, 0, 1 )
@@ -794,7 +794,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall36"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall36"]
 modulate = Color( 0, 0, 0, 1 )
@@ -808,7 +808,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall41"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall41"]
 modulate = Color( 0, 0, 0, 1 )
@@ -822,7 +822,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall44"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall44"]
 modulate = Color( 0, 0, 0, 1 )
@@ -836,7 +836,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall53"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall53"]
 modulate = Color( 0, 0, 0, 1 )
@@ -850,7 +850,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall54"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall54"]
 modulate = Color( 0, 0, 0, 1 )
@@ -864,7 +864,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall55"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall55"]
 modulate = Color( 0, 0, 0, 1 )
@@ -878,7 +878,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall56"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall56"]
 modulate = Color( 0, 0, 0, 1 )
@@ -892,7 +892,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall57"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall57"]
 modulate = Color( 0, 0, 0, 1 )
@@ -906,7 +906,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall58"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall58"]
 modulate = Color( 0, 0, 0, 1 )
@@ -920,7 +920,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall59"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall59"]
 modulate = Color( 0, 0, 0, 1 )
@@ -934,7 +934,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall60"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall60"]
 modulate = Color( 0, 0, 0, 1 )
@@ -948,7 +948,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall45"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall45"]
 modulate = Color( 0, 0, 0, 1 )
@@ -962,7 +962,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall46"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall46"]
 modulate = Color( 0, 0, 0, 1 )
@@ -976,7 +976,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall47"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall47"]
 modulate = Color( 0, 0, 0, 1 )
@@ -990,7 +990,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall48"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall48"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1004,7 +1004,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall49"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall49"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1018,7 +1018,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall50"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall50"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1032,7 +1032,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall51"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall51"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1046,7 +1046,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall52"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall52"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1060,7 +1060,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall42"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall42"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1074,7 +1074,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall43"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall43"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1088,7 +1088,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall37"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall37"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1102,7 +1102,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall38"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall38"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1116,7 +1116,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall39"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall39"]
 modulate = Color( 0, 0, 0, 1 )
@@ -1130,7 +1130,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall40"]
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Walls/Wall40"]
 modulate = Color( 0, 0, 0, 1 )

@@ -1,0 +1,21 @@
+Bonk Chonk todo list
+
+This is a list of shit that I need to get done for this to be considered alpha 
+software to me.
+
+- 10 levels
+- Collectibles in each level
+- Real sprites (no simple squares!)
+
+These 10 levels will be super simplistic in order to have the user understand 
+how the game works. There will also be enemies added to these levels once I 
+get around to that in Beta 2.
+
+
+Here is a list of other things to do. These can be done whenever as long as it 
+gets done!!
+
+- Debug menu (increase speed of users/objects, enemy placement, etc...)
+- Title screen
+- Level creator(Maybe doesn't have to be done since godot can make adding 
+    levels easy?)
