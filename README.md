@@ -20,6 +20,8 @@ You will need to install Godot, which you can get from [here](https://godotengin
 - For macOS:
 	- `godot --export "Mac OSX" bin/bonk.zip`
 
+- For Web (HTML5):
+	- `godot --export "HTML5" bin/bonk.zip`
 
 # Contributing
 To contribute, please clone the repo and submit a pull request :)
