@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Bonk Chonk (working title)"
-run/main_scene="res://levels/Level01.tscn"
+run/main_scene="res://TitleMenu.tscn"
 config/icon="res://icon.png"
 
 [display]

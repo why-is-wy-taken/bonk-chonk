@@ -1,0 +1,57 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/scripts/LevelMenu.gd" type="Script" id=1]
+
+[node name="LevelMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 607.0
+margin_top = 314.0
+margin_right = 673.0
+margin_bottom = 406.0
+
+[node name="Level01" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_right = 66.0
+margin_bottom = 20.0
+text = "Level 01"
+
+[node name="Level02" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 24.0
+margin_right = 66.0
+margin_bottom = 44.0
+text = "Level 02"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level03" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 48.0
+margin_right = 66.0
+margin_bottom = 68.0
+text = "Level 03"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level04" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 72.0
+margin_right = 66.0
+margin_bottom = 92.0
+text = "Level 04"
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Level01" to="." method="_on_Level01_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Level02" to="." method="_on_Level02_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Level03" to="." method="_on_Level03_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Level04" to="." method="_on_Level04_pressed"]
