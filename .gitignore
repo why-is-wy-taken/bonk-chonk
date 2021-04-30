@@ -1,3 +1,6 @@
 # Ignore .import since it's all files that will 
 # be loaded up when opening this project in godot
 .import/
+
+# Ignoring bin dir
+bins/

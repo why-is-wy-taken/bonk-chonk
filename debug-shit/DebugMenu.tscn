@@ -1,0 +1,43 @@
+[gd_scene format=2]
+
+[node name="DebugMenu" type="Control"]
+anchor_left = 0.8
+anchor_right = 1.0
+anchor_bottom = 0.355556
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 87.0
+margin_top = 97.0
+margin_right = 168.0
+margin_bottom = 159.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_right = 81.0
+margin_bottom = 14.0
+text = "Debug Menu"
+align = 1
+
+[node name="SpeedUp" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 18.0
+margin_right = 81.0
+margin_bottom = 38.0
+text = "Speed +50"
+
+[node name="SpeedDown" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 42.0
+margin_right = 81.0
+margin_bottom = 62.0
+text = "Speed -50"
